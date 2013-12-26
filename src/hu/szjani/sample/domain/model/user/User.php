@@ -33,6 +33,22 @@ class User extends AggregateRoot
     }
 
     /**
+     * @return mixed
+     */
+    public function getUserId()
+    {
+        return $this->userId;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
      * @Subscribe
      * @param UserCreated $event
      */
