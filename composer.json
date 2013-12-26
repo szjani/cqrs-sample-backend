@@ -1,0 +1,36 @@
+{
+    "name": "szjani/cqrs-sample-backend",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szurovecz János",
+            "email": "szjani@szjani.hu"
+        }
+    ],
+    "require": {
+        "szjani/cqrs-sample-read-api": "dev-master",
+        "szjani/cqrs-sample-write-api": "dev-master",
+        "predaddy/predaddy": "1.2.5",
+        "trf4php/trf4php": "1.1.3",
+        "beberlei/assert": "v1.3",
+        "mf4php/mf4php": "1.1.2",
+        "lf4php/lf4php-log4php": "2.0.0"
+    },
+    "provide": {
+        "szjani/cqrs-sample-read-implementation": "master",
+        "szjani/cqrs-sample-write-implementation": "master"
+    },
+    "autoload": {
+        "psr-0": {"hu": "src/"}
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/szjani/cqrs-sample-read-api.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/szjani/cqrs-sample-write-api.git"
+        }
+    ]
+}

@@ -1,0 +1,567 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "38f07451f8f5171cc5f364fcde78cb22",
+    "packages": [
+        {
+            "name": "apache/log4php",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git-wip-us.apache.org/repos/asf/logging-log4php.git",
+                "reference": "8c6df2481cd68d0d211d38f700406c5f0a9de0c2"
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/main/php/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "A versatile logging framework for PHP",
+            "homepage": "http://logging.apache.org/log4php/",
+            "keywords": [
+                "log",
+                "logging",
+                "php"
+            ],
+            "time": "2012-10-26 09:13:25"
+        },
+        {
+            "name": "beberlei/assert",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/assert.git",
+                "reference": "d76458b2ee96fad6459127d804c1538b995b5376"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/d76458b2ee96fad6459127d804c1538b995b5376",
+                "reference": "d76458b2ee96fad6459127d804c1538b995b5376",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Assert": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                }
+            ],
+            "description": "Thin assertion library for input validation in business models.",
+            "keywords": [
+                "assert",
+                "assertion",
+                "validation"
+            ],
+            "time": "2013-02-02 13:17:41"
+        },
+        {
+            "name": "doctrine/annotations",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/40db0c96985aab2822edbc4848b3bd2429e02670",
+                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Annotations\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2013-06-16 21:33:03"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "2f708a85bb3aab5d99dab8be435abd73e0b18acb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/2f708a85bb3aab5d99dab8be435abd73e0b18acb",
+                "reference": "2f708a85bb3aab5d99dab8be435abd73e0b18acb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2013-01-12 18:59:04"
+        },
+        {
+            "name": "lf4php/lf4php",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/lf4php.git",
+                "reference": "f40c3fe9d4b3a2def44260736d08b3f03c433a80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/lf4php/zipball/f40c3fe9d4b3a2def44260736d08b3f03c433a80",
+                "reference": "f40c3fe9d4b3a2def44260736d08b3f03c433a80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "lf4php/lf4php-log4php": "If you want to use log4php",
+                "lf4php/lf4php-monolog": "If you want to use Monolog",
+                "lf4php/lf4php-stdout": "If you want to use Stdout"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "lf4php": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "homepage": "http://www.szjani.hu/"
+                }
+            ],
+            "description": "This is a facade for logging frameworks.",
+            "keywords": [
+                "facade",
+                "log",
+                "wrapper"
+            ],
+            "time": "2013-01-18 19:36:35"
+        },
+        {
+            "name": "lf4php/lf4php-log4php",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/lf4php-log4php.git",
+                "reference": "554ac6686f9c61e17866615e1977ec08ac4861c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/lf4php-log4php/zipball/554ac6686f9c61e17866615e1977ec08ac4861c6",
+                "reference": "554ac6686f9c61e17866615e1977ec08ac4861c6",
+                "shasum": ""
+            },
+            "require": {
+                "apache/log4php": "2.3.*",
+                "lf4php/lf4php": "3.0.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "lf4php": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "homepage": "http://www.szjani.hu/"
+                }
+            ],
+            "description": "This is an lf4php binding for log4php.",
+            "keywords": [
+                "facade",
+                "lf4php",
+                "log",
+                "log4php",
+                "wrapper"
+            ],
+            "time": "2013-01-10 12:15:14"
+        },
+        {
+            "name": "mf4php/mf4php",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/mf4php.git",
+                "reference": "34d115cc345c3c8f13ff27acd8ece5624fbb2368"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/mf4php/zipball/34d115cc345c3c8f13ff27acd8ece5624fbb2368",
+                "reference": "34d115cc345c3c8f13ff27acd8ece5624fbb2368",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "trf4php/trf4php": "~1.1"
+            },
+            "suggest": {
+                "mf4php/mf4php-beanstalk": "If you want to use with Beanstalk"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "mf4php": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "homepage": "http://www.szjani.hu/"
+                }
+            ],
+            "description": "This is a facade for messaging systems.",
+            "keywords": [
+                "facade",
+                "messaging",
+                "wrapper"
+            ],
+            "time": "2013-09-11 21:33:15"
+        },
+        {
+            "name": "precore/precore",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/precore.git",
+                "reference": "a340af6d6311dd3d68f863b5df3a905634260ad2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/precore/zipball/a340af6d6311dd3d68f863b5df3a905634260ad2",
+                "reference": "a340af6d6311dd3d68f863b5df3a905634260ad2",
+                "shasum": ""
+            },
+            "require": {
+                "lf4php/lf4php": "~3.0",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "precore": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "homepage": "http://www.szjani.hu/"
+                }
+            ],
+            "description": "Common classes and utilities",
+            "keywords": [
+                "common"
+            ],
+            "time": "2013-08-31 12:28:30"
+        },
+        {
+            "name": "predaddy/predaddy",
+            "version": "1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/predaddy.git",
+                "reference": "7e1278dea9ebe92eace1802268b5b46fdb9a9754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/predaddy/zipball/7e1278dea9ebe92eace1802268b5b46fdb9a9754",
+                "reference": "7e1278dea9ebe92eace1802268b5b46fdb9a9754",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "1.1.*",
+                "mf4php/mf4php": "1.1.*",
+                "php": ">=5.3.2",
+                "precore/precore": "1.0.*"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "suggest": {
+                "mf4php/mf4php-beanstalk": "If you want to use EventBus with Beanstalk (asynchronous event handling)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "predaddy": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "homepage": "http://www.szjani.hu/"
+                }
+            ],
+            "description": "Common DDD classes and utilities",
+            "keywords": [
+                "aggregate",
+                "ddd",
+                "eventbus"
+            ],
+            "time": "2013-10-14 06:23:22"
+        },
+        {
+            "name": "szjani/cqrs-sample-read-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/cqrs-sample-read-api.git",
+                "reference": "d8ccf3be2ac76de0ddcb995b98f4366beae03e9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/cqrs-sample-read-api/zipball/d8ccf3be2ac76de0ddcb995b98f4366beae03e9d",
+                "reference": "d8ccf3be2ac76de0ddcb995b98f4366beae03e9d",
+                "shasum": ""
+            },
+            "require": {
+                "predaddy/predaddy": "1.2.5",
+                "szjani/cqrs-sample-read-implementation": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "hu": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "email": "szjani@szjani.hu"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/szjani/cqrs-sample-read-api/tree/master",
+                "issues": "https://github.com/szjani/cqrs-sample-read-api/issues"
+            },
+            "time": "2013-12-26 20:56:23"
+        },
+        {
+            "name": "szjani/cqrs-sample-write-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/cqrs-sample-write-api.git",
+                "reference": "67f067f729ed10e8c8e5d98390a17e3489ae9fa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/cqrs-sample-write-api/zipball/67f067f729ed10e8c8e5d98390a17e3489ae9fa1",
+                "reference": "67f067f729ed10e8c8e5d98390a17e3489ae9fa1",
+                "shasum": ""
+            },
+            "require": {
+                "predaddy/predaddy": "1.2.5",
+                "szjani/cqrs-sample-write-implementation": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "hu": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "email": "szjani@szjani.hu"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/szjani/cqrs-sample-write-api/tree/master",
+                "issues": "https://github.com/szjani/cqrs-sample-write-api/issues"
+            },
+            "time": "2013-12-26 20:58:04"
+        },
+        {
+            "name": "trf4php/trf4php",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szjani/trf4php.git",
+                "reference": "aecd0b384204338d4660813c59284bdb354fdb1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szjani/trf4php/zipball/aecd0b384204338d4660813c59284bdb354fdb1c",
+                "reference": "aecd0b384204338d4660813c59284bdb354fdb1c",
+                "shasum": ""
+            },
+            "require": {
+                "lf4php/lf4php": "~3.0",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "trf4php/trf4php-doctrine": "If you want to use with Doctrine ORM"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "trf4php": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Szurovecz János",
+                    "homepage": "http://www.szjani.hu/"
+                }
+            ],
+            "description": "This is a facade for transaction managers.",
+            "keywords": [
+                "facade",
+                "transaction",
+                "wrapper"
+            ],
+            "time": "2013-01-10 12:28:05"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "szjani/cqrs-sample-read-api": 20,
+        "szjani/cqrs-sample-write-api": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
