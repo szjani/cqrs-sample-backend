@@ -42,6 +42,6 @@ class UserCommandHandler extends Object
         Assertion::notNull($user, "Invalid user ID [{$userId}]");
         $user->updateEmail($newEmail, $command->getRawPassword());
         $this->userRepository->store($user, $command->getVersion());
-        self::getLogger("User's [{}] email has been modified to [{}]", array($userId, $newEmail));
+        self::getLogger()->info("User's [{}] email has been modified to [{}]", array($userId, $newEmail));
     }
 }
